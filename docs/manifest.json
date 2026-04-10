@@ -2,7 +2,7 @@
   "name": "Travel Tracker",
   "short_name": "旅行规划",
   "description": "记录每一刻美好时光",
-  "start_url": "./",
+  "start_url": "./Travel",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3498db",
