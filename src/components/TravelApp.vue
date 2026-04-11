@@ -266,13 +266,13 @@ export default {
 				} else {
           console.log("Plan itinerary");
 				//规划行程
-				  router.push("/Travel/TravelManager");
+				  router.push("/TravelManager");
         }
 			} else if (feature.number === 1) {
 				//景点评分
 				// this.scoreScenicSpot();
 				//router.push('/SelfTravel')
-				router.push("/Travel/ScenicSpot").then(() => {
+				router.push("/ScenicSpot").then(() => {
         console.log("导航成功");
       })
       .catch(err => {

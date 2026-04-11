@@ -1016,7 +1016,7 @@ const checkUserLogin = () => {
 	currentUser.value = indexedDBHelper.getCurrentUser();
 	if (!currentUser.value) {
 		alert("Please login first");
-		router.push("/Travel");
+		router.push("/");
 		return false;
 	}
 	return true;
@@ -1918,7 +1918,7 @@ const handleImageError = (e) => {
 const logout = () => {
 	if (confirm("Are you sure you want to log out?")) {
 		localStorage.removeItem("currentUser");
-		router.push("/Travel");
+		router.push("/");
 	}
 };
 </script>
