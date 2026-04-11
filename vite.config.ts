@@ -39,7 +39,7 @@ export default defineConfig({
       manifest: {
         name: 'Travel Tracker',
         short_name: 'Travel',
-        start_url: '/Travel',
+        start_url: '/',
         display: 'standalone',
         theme_color: '#ffffff',
         background_color: '#ffffff',

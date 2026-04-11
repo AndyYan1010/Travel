@@ -1,7 +1,7 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from "vue-router";
 
-let base ='/Travel'
+let base =''
 
 // 定义路由映射表
 const routes = [
@@ -12,7 +12,7 @@ const routes = [
   // },
   // 动态路由示例
   {
-    path: `${base}`,
+    path: `${base}/`,
     name: "LoginPage",
     component: () => import("../components/LoginPage.vue"), // 路由懒加载
   },
